@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC 196 Project 2</title>
+    <script src="http://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/dumbbell.js"></script>
+    <script src="https://code.highcharts.com/modules/lollipop.js"></script>
+    <link rel="stylesheet" href="table.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Crimes by year</h1>
+    <h3>A look at the difference in reported crimes across 2 years: 2018-2019</h3>
+    <p>By Talon Flynn</p>
+    <p>Last Updated: December 11</p>
+    <br>
+    <div id="chart"></div>
+    <div class="container">
+
+        <h4>Reported crimes in 2018 & 2019</h4>
+        <p>The figures below are provided by <a href="https://ucr.fbi.gov/crime-in-the-u.s/2019/">The FBI: UCR</a>, a United States Government official report. </p>
+        <table id="dt-table" style="text-align: left;">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>2018</th>
+                    <th>2019</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Violent crime</td>
+                    <td>2361</td>
+                    <td>2035</td>
+                </tr>
+                <tr>
+                    <td>Murder</td>
+                    <td>24</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Rape</td>
+                    <td>201</td>
+                    <td>177</td>
+                </tr>
+                <tr>
+                    <td>Robbery</td>
+                    <td>247</td>
+                    <td>203</td>
+                </tr>
+                <tr>
+                    <td>Aggravated Assault</td>
+                    <td>1862</td>
+                    <td>1642</td>
+                </tr>
+                <tr>
+                    <td>Property Crime</td>
+                    <td>10710</td>
+                    <td>9502</td>
+                </tr>
+                <tr>
+                    <td>Burglary</td>
+                    <td>1673</td>
+                    <td>1299</td>
+                </tr>
+                <tr>
+                    <td>Larceny-Theft</td>
+                    <td>7649</td>
+                    <td>7111</td>
+                </tr>
+                <tr>
+                    <td>Motor Vehicle theft</td>
+                    <td>1388</td>
+                    <td>1092</td>
+                </tr>
+                <tr>
+                    <td>Arson</td>
+                    <td>77</td>
+                    <td>59</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+
+    <footer>
+        <p>This web page is created by Student Name</p>
+    </footer>
+</body>
+</html>
